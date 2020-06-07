@@ -1,12 +1,22 @@
 body {
-    background-color: #5BF6E1;
+    background-color: rgb(244, 248, 248);
 }
 h1 {
-    background-color: red;
+    background-color: rgb(156, 139, 139);
     color: burlywood; 
 }
-em {
-    color: pink;
-    background-color: : black;
-}
 
+
+.Book {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.Book {
+    box-shadow: 10px 10px 10px  grey; 
+}
+.Titel {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
