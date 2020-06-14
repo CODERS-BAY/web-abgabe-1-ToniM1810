@@ -1,41 +1,43 @@
-<!doctype html>
-<html lang="de">
+<!doctype html> <!--Dokumenttypangabe z.B: HTML5-->
+<html lang="de"> <!--Start-Tag HTML inkl Hinweis, dass die Seite auf Deutsch verfasst ist-->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HTML und CSS sind die Basis aller Webseiten">
-  <title>HTML und CSS</title>
-  <link rel="stylesheet" href="stil.css">
-</head>
+<head><!--Kopfbereich, beinhaltet Informationen über das Dokument z.B. Seitentitel, 
+  alles was dder User nicht sieht aber der Browser braucht-->
+  <meta charset="UTF-8"><!--sichert die Darstellung der Sonderzeichen;Zeichenkodierung, wichtigste Angabe-->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Skalierung der Webseite z.B. am Handy-->
+  <meta name="description" content="HTML und CSS sind die Basis aller Webseiten"> <!--Beschreibung der Webseite,
+  wichtig für die Suchmaschinenoptimierung-->
+  <title>HTML und CSS</title> <!--der Seitentitel, zweitwichtigste Angabe im Internet-->
+  <link rel="stylesheet" href="stil.css"> <!--Verweis auf die CSS Datei-für die Formatierung der Webseite-->
+</head> <!--Ende Kopfbereich-->
 
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="aktuell">Home</a></li>
-        <li><a href="infos.html">Infos</a></li>
-      </ul>
-    </nav>
-    <h1>HTML und CSS</h1>
-  </header>
-  <main>
-    <article>
-      <h2>HTML</h2>
-      <p>
-        <img src="bilder/html.png" alt="HTML-Code">
+<body> <!--der Inhalt den man auf der Seite sieht-->
+  <header><!--der Kopf einer Seite oder eines Bereichs-->
+    <nav><!--Hauptnavigation, hier sind Links für Seiten der jeweiligen Webseite erfasst-->
+      <ul><!--ungeordnete Liste-->
+        <li><a href="index.html" class="aktuell">Home</a></li> <!--Link für die Seite Home-->
+        <li><a href="infos.html">Infos</a></li> <!--Link für die Seite Infos-->
+      </ul> <!--Ende der ungeordneten Liste-->
+    </nav> <!--Ende Navigationsbereich-->
+    <h1>HTML und CSS</h1> <!--Hauptüberschrift, kann auf einer Seite nur einmal vorkommen-->
+  </header><!--Ende des Kopfs oder Bereiches-->
+  <main><!--Hauptinhalt der Seite oder Unterseite-->
+    <article><!--Inhalte, die auch eigenständig existieren können-->
+      <h2>HTML</h2> <!--Überschrift, darf mehrmals vorkommen-->
+      <p> <!--Anfang des Tages, Kennzeichnung des Absatzes-->
+        <img src="bilder/html.png" alt="HTML-Code"> <!--mit img wird ein Bild eingefügt-->
         HTML steht nicht für "Hast Du Mich Lieb" und auch nicht für "Hier
         tauchen Mäuse-Liebhaber", sondern für Hypertext Markup Language (englisch für Hypertext-Auszeichnungssprache).
-      </p>
-      <p>
+      </p><!--Ende des Absatzes-->
+      <p> <!--Beginn des neuen Absatzes-->
         HTML ist eine textbasierte Auszeichnungssprache zur Strukturierung digitaler Dokumente wie Texte mit
         Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von
         Webbrowsern dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in
         Form von Metainformationen enthalten, z. B. über die im Text verwendeten Sprachen, den Autor oder den
-        zusammengefassten Inhalt des Textes. </p>
-    </article>
-    <article>
-      <h2>CSS</h2>
+        zusammengefassten Inhalt des Textes. </p> <!--Ende Absatz-->
+    </article> <!--Ende des Inhaltes-->
+    <article> <!--neuer Inhalt-->
+      <h2>CSS</h2> <!--Überschrift zweiter Ordnung-->
       <p>
         CSS bezeichnet das Computerspiel "Counter Strike" und könnte auch für "Chaos siegt sicher" stehen. In unserem
         Zusammenhang bedeutet die Abkürzung aber Cascading Style Sheets (englische Aussprache [kæsˌkeɪdɪŋˈstaɪlʃiːts];
@@ -53,10 +55,10 @@
         vorzugsweise in separaten CSS-Dateien, die Darstellung der Inhalte festgelegt wird (z. B. Layout, Farben und
         Typografie). </p>
     </article>
-  </main>
-  <footer>
+  </main> <!--Ende des Hauptinhaltes-->
+  <footer> <!--Beginn Footer; Fußbereich-->
     <p>© 2019</p>
-  </footer>
-</body>
+  </footer> <!--Ende Footer-->
+</body> <!--Ende Body-->
 
-</html>
+</html><!--Ende der Seite-->
